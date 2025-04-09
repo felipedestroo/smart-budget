@@ -1,3 +1,13 @@
 <template>
-  <h1 class="font-bold text-red-300 text-7xl flex justify-center items-center m-auto">Hello World</h1>
+  <FinancialTable />
 </template>
+
+<script>
+  import FinancialTable from './components/FinancialTable.vue';
+
+  export default {
+    components: {
+      FinancialTable
+    }
+  }
+</script>
